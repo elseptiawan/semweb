@@ -20,11 +20,15 @@
                 margin: 0;
                 padding: 0;
                 background-color: #e5e5e5;
-                background-image: url('{{ asset('image/sea_games_logo.png') }}');
-                background-size: 25%;
             }
 
-            .search button {
+            .container table {
+                background-image: url('{{ asset('image/sea_games_logo.png') }}');
+                background-size: 25%;
+                backgroun
+            }
+
+            button {
                 border-radius: 5px;
                 background-color: white;
                 border-style: solid;
@@ -38,13 +42,12 @@
                 height: 100px;
             }
 
-            input {
-                /* margin-left: 100%; */
+            select {
                 border-radius: 5px;
                 border-color: black;
                 border-style: solid;
                 margin-right: 15px;
-                width: 1145px;
+                width: 50%;
             }
         </style>
     </head>
